@@ -25,23 +25,14 @@
 body {
   background-color: #a4a5a2;
   font-family:Helvetica, sans-serif;
-<<<<<<< HEAD
-  border: 2px solid black;
-=======
   margin: 0;
->>>>>>> 1e2068e (Update files)
 
 }
 
 .container {
   display: grid;
-<<<<<<< HEAD
   grid-template-columns: 2;
   grid-template-rows: 2;
-=======
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
->>>>>>> 1e2068e (Update files)
   box-shadow: 0 0 3em rgba(239, 232, 232, 0.3);
   background-color: var(--background-color, white);
   width: 80vw;
@@ -76,12 +67,8 @@ body {
 
 
 .menu1, ul, li {
-<<<<<<< HEAD
-  grid-column: 2;
-=======
   grid-column-start: 2;
   grid-column-end: 7;
->>>>>>> 1e2068e (Update files)
   display: flex;
   margin-right: 30px;
   margin-top: 30px;
@@ -99,99 +86,17 @@ li a {
 
 }
 
-<<<<<<< HEAD
-=======
 .header > a {
   list-style-type: none;
   text-decoration: none;
   color: var(--color-text, black);
 }
 
->>>>>>> 1e2068e (Update files)
 a:hover {
   color: var(--hover-color, black);
   font-weight: 100;  
 }
 
-<<<<<<< HEAD
-.image-container {
-  margin-bottom: 400px;
-  position: relative;
-}
-
-.image-container::before {
-  content: '';
-  position: absolute;
-  top: 2em;
-  bottom: 2em;
-  left: 2em;
-  right: 2em;
-  opacity: 1;
-  transition: transform ease-out 250ms;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  transform: scale(0, 1);
-  z-index: 1;
-
-}
-
-.image-container::after {
-  content: '';
-  position: absolute;
-  top: 2em;
-  bottom: 2em;
-  left: 2em;
-  right: 2em;
-  opacity: 1;
-  transition: transform ease-out 250ms;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  transform: scale(1, 0);
-}
-
-.image-container:hover::before {
-  transform: scale(1.05, 1);
-}
-
-.image-container:hover::after {
-  transform: scale(1, 1.05);
-}
-
-.image-container, img {
-  width: 100%;
-  transition: opacity ease-out 250ms;
-  filter: contrast(1.1);
-}
-
-.image-container:hover img {
-  opacity: .6;
-}
-
-
-.image-text {
-  position: absolute;
-  bottom: 30em;
-  font-size: clamp(1rem, 3vw, 1.5rem); 
-  top: 66%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--color-text, black);
-  font-weight: 500;
-  opacity: 0;
-  transition: opacity ease-out 250ms;
-}
-
-.image-container:hover .image-text {
-  opacity: 1;
-}
-
-/* .sidebar {
-  width: 80%;
-  padding: 20px 2em;
-  margin-left: 30px;
-} */
-
-=======
 .video-container {
   grid-column-start: 3;
   grid-column-end: 7;
@@ -225,7 +130,6 @@ a:hover {
   margin-left: 10px;
 }
 
->>>>>>> 1e2068e (Update files)
 .footer {
   display: flex;
   justify-content: end;
@@ -244,12 +148,8 @@ a:hover {
   font-size: 25px;
 }
 
-<<<<<<< HEAD
-
-=======
 @media screen and (max-width: 900px) {
   .video-container {
     max-height: 25vh;
   }
 }
->>>>>>> 1e2068e (Update files)
