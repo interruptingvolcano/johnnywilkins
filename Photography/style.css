@@ -148,8 +148,9 @@ a:hover {
   font-size: 25px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .photo-container {
-    max-height: 25vh;
+    max-height: 30vh;
+    grid-column-start: 1;
   }
 }
