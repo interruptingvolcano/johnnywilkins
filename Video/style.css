@@ -151,6 +151,8 @@ a:hover {
 @media screen and (max-width: 800px) {
   .video-container {
     max-height: 30vh;
-    grid-column-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: -120px;
   }
 }
