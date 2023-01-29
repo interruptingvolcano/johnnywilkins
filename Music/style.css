@@ -143,8 +143,9 @@ a:hover {
 @media(max-width: 600px) {
   
   .music-container {
-    max-height: 50vh;
+    max-height: 55vh;
     grid-column-start: 1;
+    grid-column-end: 6;
   }
 
   .container {
