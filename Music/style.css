@@ -146,6 +146,10 @@ a:hover {
     max-height: 50vh;
     grid-column-start: 1;
   }
+
+  .container {
+    width: 100vw;
+  }
 }
 
 
