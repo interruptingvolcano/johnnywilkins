@@ -102,7 +102,7 @@ a:hover {
   grid-column-end: 7;
   height: 70vh;
   overflow: auto;
-  margin-right: 30px;
+  margin-right: 70px;
 } 
 
 .music {
@@ -145,7 +145,7 @@ a:hover {
   .music-container {
     max-height: 40vh;
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
     margin-left: 100px;
   }
 
