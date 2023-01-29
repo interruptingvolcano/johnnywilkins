@@ -154,7 +154,7 @@ a:hover {
     max-height: 56vh;
     grid-column-start: 1;
     grid-column-end: 6;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 217px;
   }
 
@@ -176,7 +176,7 @@ a:hover {
     border-bottom: var(--border-top, rgba(35, 34, 36, 0.7));;
     padding-bottom: 20px;
     height: fit-content;
-    margin-left: -180px;
+    margin-left: -117px;
   }
 
   li a {
