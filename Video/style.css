@@ -149,12 +149,12 @@ a:hover {
   font-size: 25px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   .video-container {
     max-height: 56vh;
     grid-column-start: 1;
     grid-column-end: 6;
-    margin-left: 100px;
+    margin-left: 85px;
     margin-bottom: 217px;
   }
 
