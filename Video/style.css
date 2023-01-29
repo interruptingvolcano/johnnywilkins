@@ -101,7 +101,8 @@ a:hover {
   grid-column-start: 3;
   grid-column-end: 7;
   overflow: auto;
-  height: 70vh;
+  height: 73vh;
+  margin-bottom: 250px;
 } 
 
 .video {
@@ -148,14 +149,51 @@ a:hover {
   font-size: 25px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .video-container {
-    max-height: 44vh;
+    max-height: 56vh;
     grid-column-start: 1;
     grid-column-end: 6;
+    margin-left: 100px;
+    margin-bottom: 217px;
   }
 
   .container {
     width: 100vw;
   }
+
+  .menu1, ul, li {
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    gap: 2px;
+
+  }
+
+  .menu1 > ul {
+    border-bottom: var(--border-top, rgba(35, 34, 36, 0.7));;
+    padding-bottom: 20px;
+    height: fit-content;
+    margin-left: -117px;
+  }
+
+  li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--color-text, black);
+    font-size: clamp(.5rem, 2.5vw, 1rem);
+    font-weight: 100;
+  
+  }
+
+  .video-container > p {
+    font-weight: 100;
+    color: var(--color-text);
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: .8rem;
+  }
 }
+
