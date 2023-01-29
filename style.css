@@ -191,6 +191,9 @@ a:hover {
   .image-container::after {
     border: none;
   }
+  .container {
+    width: 100vw;
+  }
 }
 
 

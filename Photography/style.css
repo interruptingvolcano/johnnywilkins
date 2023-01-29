@@ -150,7 +150,11 @@ a:hover {
 
 @media screen and (max-width: 800px) {
   .photo-container {
-    max-height: 30vh;
+    max-height: 40vh;
     grid-column-start: 1;
+  }
+
+  .container {
+    width: 100vw;
   }
 }
