@@ -172,7 +172,15 @@ a:hover {
     padding-bottom: 20px;
     height: fit-content;
     margin-right: 60px;
-    padding: 10px;
+  }
+
+  li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--color-text, black);
+    font-size: clamp(.5rem, 2.5vw, 1rem);
+    font-weight: 100;
+  
   }
 
 }
