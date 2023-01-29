@@ -153,12 +153,25 @@ a:hover {
     width: 100vw;
   }
 
+  .menu1 {
+    margin-right: 100px;
+  }
+
   .menu1, ul, li {
-   
     grid-row: 2;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
     flex-wrap: nowrap;
+    gap: 2px;
+
+  }
+
+  .menu1 > ul {
+    border-bottom: var(--border-top, rgba(35, 34, 36, 0.7));;
+    padding-bottom: 20px;
+    height: fit-content;
+    margin-right: 60px;
   }
 
 }
