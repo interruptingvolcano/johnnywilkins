@@ -188,6 +188,12 @@ a:hover {
   
   }
 
-
+  .video-container > p {
+    font-weight: 100;
+    color: var(--color-text);
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: .8rem;
+  }
 }
 
